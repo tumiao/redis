@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/redis.v3/internal"
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 var errDiscard = errors.New("redis: Discard can be used only inside Exec")

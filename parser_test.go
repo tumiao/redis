@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"testing"
 
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 func BenchmarkParseReplyStatus(b *testing.B) {

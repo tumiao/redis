@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v3/internal"
-	"gopkg.in/redis.v3/internal/hashtag"
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal"
+	"github.com/tumiao/redis/internal/hashtag"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 // ClusterClient is a Redis Cluster client representing a pool of zero

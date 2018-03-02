@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 const (

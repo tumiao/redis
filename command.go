@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 var (

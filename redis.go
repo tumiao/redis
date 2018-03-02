@@ -1,11 +1,11 @@
-package redis // import "gopkg.in/redis.v3"
+package redis // import "github.com/tumiao/redis"
 
 import (
 	"fmt"
 	"log"
 
-	"gopkg.in/redis.v3/internal"
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 var Logger *log.Logger

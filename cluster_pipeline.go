@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"gopkg.in/redis.v3/internal/hashtag"
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/hashtag"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 // ClusterPipeline is not thread-safe.

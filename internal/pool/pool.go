@@ -10,7 +10,7 @@ import (
 
 	"gopkg.in/bsm/ratelimit.v1"
 
-	"gopkg.in/redis.v3/internal"
+	"github.com/tumiao/redis/internal"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 type Options struct {

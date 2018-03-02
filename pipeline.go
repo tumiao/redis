@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/redis.v3/internal/pool"
+	"github.com/tumiao/redis/internal/pool"
 )
 
 // Pipeline implements pipelining as described in

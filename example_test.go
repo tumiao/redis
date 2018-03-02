@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v3"
+	"github.com/tumiao/redis"
 )
 
 var client *redis.Client

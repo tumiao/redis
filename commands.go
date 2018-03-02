@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/redis.v3/internal"
+	"github.com/tumiao/redis/internal"
 )
 
 func formatInt(i int64) string {

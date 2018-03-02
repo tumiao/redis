@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"gopkg.in/redis.v3"
+	"github.com/tumiao/redis"
 )
 
 var _ = Describe("PubSub", func() {
